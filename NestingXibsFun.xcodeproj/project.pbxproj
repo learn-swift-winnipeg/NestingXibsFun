@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		003622BC1DE26A0C00848A17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003622BB1DE26A0C00848A17 /* AppDelegate.swift */; };
-		003622BE1DE26A0C00848A17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003622BD1DE26A0C00848A17 /* ViewController.swift */; };
 		003622C11DE26A0C00848A17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 003622BF1DE26A0C00848A17 /* Main.storyboard */; };
 		003622C31DE26A0C00848A17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 003622C21DE26A0C00848A17 /* Assets.xcassets */; };
 		003622C61DE26A0C00848A17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 003622C41DE26A0C00848A17 /* LaunchScreen.storyboard */; };
+		003622D01DE26BDB00848A17 /* DesignableXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003622CF1DE26BDB00848A17 /* DesignableXibView.swift */; };
+		003622D21DE26BE900848A17 /* DesignableXibView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 003622D11DE26BE900848A17 /* DesignableXibView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		003622B81DE26A0C00848A17 /* NestingXibsFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NestingXibsFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		003622BB1DE26A0C00848A17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		003622BD1DE26A0C00848A17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		003622C01DE26A0C00848A17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		003622C21DE26A0C00848A17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		003622C51DE26A0C00848A17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		003622C71DE26A0C00848A17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		003622CF1DE26BDB00848A17 /* DesignableXibView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableXibView.swift; sourceTree = "<group>"; };
+		003622D11DE26BE900848A17 /* DesignableXibView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DesignableXibView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,23 @@
 		003622BA1DE26A0C00848A17 /* NestingXibsFun */ = {
 			isa = PBXGroup;
 			children = (
-				003622BB1DE26A0C00848A17 /* AppDelegate.swift */,
-				003622BD1DE26A0C00848A17 /* ViewController.swift */,
 				003622BF1DE26A0C00848A17 /* Main.storyboard */,
+				003622D11DE26BE900848A17 /* DesignableXibView.xib */,
+				003622CF1DE26BDB00848A17 /* DesignableXibView.swift */,
+				00EED64C1DE27DF70049F107 /* Non-related files */,
+			);
+			path = NestingXibsFun;
+			sourceTree = "<group>";
+		};
+		00EED64C1DE27DF70049F107 /* Non-related files */ = {
+			isa = PBXGroup;
+			children = (
+				003622BB1DE26A0C00848A17 /* AppDelegate.swift */,
 				003622C21DE26A0C00848A17 /* Assets.xcassets */,
 				003622C41DE26A0C00848A17 /* LaunchScreen.storyboard */,
 				003622C71DE26A0C00848A17 /* Info.plist */,
 			);
-			path = NestingXibsFun;
+			name = "Non-related files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +137,7 @@
 			files = (
 				003622C61DE26A0C00848A17 /* LaunchScreen.storyboard in Resources */,
 				003622C31DE26A0C00848A17 /* Assets.xcassets in Resources */,
+				003622D21DE26BE900848A17 /* DesignableXibView.xib in Resources */,
 				003622C11DE26A0C00848A17 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				003622BE1DE26A0C00848A17 /* ViewController.swift in Sources */,
+				003622D01DE26BDB00848A17 /* DesignableXibView.swift in Sources */,
 				003622BC1DE26A0C00848A17 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +312,7 @@
 				003622CC1DE26A0C00848A17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
