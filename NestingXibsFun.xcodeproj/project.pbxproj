@@ -13,6 +13,7 @@
 		003622C61DE26A0C00848A17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 003622C41DE26A0C00848A17 /* LaunchScreen.storyboard */; };
 		003622D01DE26BDB00848A17 /* DesignableXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003622CF1DE26BDB00848A17 /* DesignableXibView.swift */; };
 		003622D21DE26BE900848A17 /* DesignableXibView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 003622D11DE26BE900848A17 /* DesignableXibView.xib */; };
+		00EED64E1DE281890049F107 /* AnotherDesignableXibView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00EED64D1DE281890049F107 /* AnotherDesignableXibView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		003622C71DE26A0C00848A17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		003622CF1DE26BDB00848A17 /* DesignableXibView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableXibView.swift; sourceTree = "<group>"; };
 		003622D11DE26BE900848A17 /* DesignableXibView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DesignableXibView.xib; sourceTree = "<group>"; };
+		00EED64D1DE281890049F107 /* AnotherDesignableXibView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnotherDesignableXibView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				003622BF1DE26A0C00848A17 /* Main.storyboard */,
 				003622D11DE26BE900848A17 /* DesignableXibView.xib */,
 				003622CF1DE26BDB00848A17 /* DesignableXibView.swift */,
+				00EED64D1DE281890049F107 /* AnotherDesignableXibView.xib */,
 				00EED64C1DE27DF70049F107 /* Non-related files */,
 			);
 			path = NestingXibsFun;
@@ -138,6 +141,7 @@
 				003622C61DE26A0C00848A17 /* LaunchScreen.storyboard in Resources */,
 				003622C31DE26A0C00848A17 /* Assets.xcassets in Resources */,
 				003622D21DE26BE900848A17 /* DesignableXibView.xib in Resources */,
+				00EED64E1DE281890049F107 /* AnotherDesignableXibView.xib in Resources */,
 				003622C11DE26A0C00848A17 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

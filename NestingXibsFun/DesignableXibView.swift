@@ -28,8 +28,8 @@ class DesignableXibView: UIView {
     private func setupXib() {
         contentView = loadViewFromNib()
         
-        // Add contentView to actual view.
-        self.addSubview(contentView)
+        // Add contentView to actual view at base of hierarchy so other views from storyboard will appear on top. 
+        self.insertSubview(contentView, at: 0)
         
         // Add layout constraints so the contentView always fills the actual view.
         contentView.translatesAutoresizingMaskIntoConstraints = false
@@ -52,4 +52,8 @@ class DesignableXibView: UIView {
         
         return view
     }
+}
+
+class AnotherDesignableXibView: DesignableXibView {
+    
 }

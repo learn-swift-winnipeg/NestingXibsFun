@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -16,18 +17,30 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I'm a designable view!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SLS-jC-f94">
-                    <rect key="frame" x="8" y="315.5" width="359" height="36"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                    <nil key="textColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bU2-bJ-dbj" userLabel="Container" customClass="AnotherDesignableXibView" customModule="NestingXibsFun" customModuleProvider="target">
+                    <rect key="frame" x="8" y="307.5" width="359" height="52"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I'm a designable view!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SLS-jC-f94">
+                            <rect key="frame" x="8" y="8" width="343" height="36"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="SLS-jC-f94" firstAttribute="leading" secondItem="bU2-bJ-dbj" secondAttribute="leadingMargin" id="FJI-Y0-uzL"/>
+                        <constraint firstAttribute="trailingMargin" secondItem="SLS-jC-f94" secondAttribute="trailing" id="LhK-Z0-XZi"/>
+                        <constraint firstItem="SLS-jC-f94" firstAttribute="top" secondItem="bU2-bJ-dbj" secondAttribute="topMargin" id="hy4-dn-WCf"/>
+                        <constraint firstAttribute="bottomMargin" secondItem="SLS-jC-f94" secondAttribute="bottom" id="y3i-WO-F31"/>
+                    </constraints>
+                </view>
             </subviews>
             <color key="backgroundColor" red="0.99558350314895416" green="0.68810342611434872" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="SLS-jC-f94" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leadingMargin" id="C8q-f0-dJN"/>
-                <constraint firstItem="SLS-jC-f94" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Gsp-KF-2oe"/>
-                <constraint firstAttribute="trailingMargin" secondItem="SLS-jC-f94" secondAttribute="trailing" id="eKs-yi-W02"/>
+                <constraint firstAttribute="trailingMargin" secondItem="bU2-bJ-dbj" secondAttribute="trailing" id="QTQ-9D-fZu"/>
+                <constraint firstItem="bU2-bJ-dbj" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leadingMargin" id="hb1-eQ-Rt9"/>
+                <constraint firstItem="bU2-bJ-dbj" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerYWithinMargins" id="jf4-RL-OCx"/>
             </constraints>
             <point key="canvasLocation" x="35.5" y="54.5"/>
         </view>
