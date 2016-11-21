@@ -6,3 +6,6 @@ A few meetups ago our friend Angel asked if custom UIView subclasses/xibs could 
 Thanks to Angel for asking this question and making me think about it. That's the power of meetups, we all learn even when we *think* we already know the answers.
 
 This code was mostly lifted from: http://stackoverflow.com/questions/30335089/reuse-a-uiview-xib-in-storyboard
+
+### Screenshot
+![alt text](./Screenshot-resized.png "NestingXibsFun final Screenshot.")
