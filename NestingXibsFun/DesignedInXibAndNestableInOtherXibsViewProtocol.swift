@@ -3,7 +3,7 @@ import UIKit
 // MARK: - DesignedInXibAndNestableInOtherXibsViewProtocol
 
 /**
- Allows conforming UIView subclasses to load views designed in Xib files. Views are then "Designable" via the `@IBDesignable` attribute and will render in Storyboards and other Xib files.
+ Allows conforming UIView subclass to load views designed in Xib file. Views are then "Designable" via the `@IBDesignable` attribute and will render in Storyboards and other Xib files.
  
  Usage Requirements:
  1. Conforming classes must be accompanied by Xib file with identical name as conforming class. i.e. `class DesignedInXibView` and `DesignedInXibView.xib`
@@ -24,10 +24,8 @@ extension DesignedInXibAndNestableInOtherXibsViewProtocol where Self: UIView {
         // Add viewFromXib to actual view at base of hierarchy so other views from Storyboard/Xib will appear on top.
         self.insertSubview(viewFromXib, at: 0)
         
-        // Prevent Autoresizing Mask from being turned into layout constraints because we're adding constraints below.
-        viewFromXib.translatesAutoresizingMaskIntoConstraints = false
-        
         // Add layout constraints so the viewFromXib always fills the actual view.
+        viewFromXib.translatesAutoresizingMaskIntoConstraints = false
         viewFromXib.leadingAnchor.constraint(equalTo: self.leadingAnchor).isActive = true
         viewFromXib.trailingAnchor.constraint(equalTo: self.trailingAnchor).isActive = true
         viewFromXib.topAnchor.constraint(equalTo: self.topAnchor).isActive = true
