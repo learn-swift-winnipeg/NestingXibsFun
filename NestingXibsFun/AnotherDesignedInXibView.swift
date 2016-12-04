@@ -1,0 +1,2 @@
+@IBDesignable
+class AnotherDesignedInXibView: DesignedInXibAndNestableInOtherXibsView {}

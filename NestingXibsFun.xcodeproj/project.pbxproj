@@ -7,25 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0012AF601DF3151F007169F1 /* DesignedInXibAndNestableInOtherXibsViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0012AF5F1DF3151F007169F1 /* DesignedInXibAndNestableInOtherXibsViewProtocol.swift */; };
+		0012AF631DF4BB8C007169F1 /* AnotherDesignedInXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0012AF621DF4BB8C007169F1 /* AnotherDesignedInXibView.swift */; };
+		0012AF681DF4C35A007169F1 /* DesignedInXibAndNestableInOtherXibsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0012AF671DF4C35A007169F1 /* DesignedInXibAndNestableInOtherXibsView.swift */; };
 		003622BC1DE26A0C00848A17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003622BB1DE26A0C00848A17 /* AppDelegate.swift */; };
 		003622C11DE26A0C00848A17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 003622BF1DE26A0C00848A17 /* Main.storyboard */; };
 		003622C31DE26A0C00848A17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 003622C21DE26A0C00848A17 /* Assets.xcassets */; };
 		003622C61DE26A0C00848A17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 003622C41DE26A0C00848A17 /* LaunchScreen.storyboard */; };
-		003622D01DE26BDB00848A17 /* DesignableXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003622CF1DE26BDB00848A17 /* DesignableXibView.swift */; };
-		003622D21DE26BE900848A17 /* DesignableXibView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 003622D11DE26BE900848A17 /* DesignableXibView.xib */; };
-		00EED64E1DE281890049F107 /* AnotherDesignableXibView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00EED64D1DE281890049F107 /* AnotherDesignableXibView.xib */; };
+		003622D01DE26BDB00848A17 /* DesignedInXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003622CF1DE26BDB00848A17 /* DesignedInXibView.swift */; };
+		003622D21DE26BE900848A17 /* DesignedInXibView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 003622D11DE26BE900848A17 /* DesignedInXibView.xib */; };
+		00EED64E1DE281890049F107 /* AnotherDesignedInXibView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00EED64D1DE281890049F107 /* AnotherDesignedInXibView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0012AF5F1DF3151F007169F1 /* DesignedInXibAndNestableInOtherXibsViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignedInXibAndNestableInOtherXibsViewProtocol.swift; sourceTree = "<group>"; };
+		0012AF621DF4BB8C007169F1 /* AnotherDesignedInXibView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnotherDesignedInXibView.swift; sourceTree = "<group>"; };
+		0012AF671DF4C35A007169F1 /* DesignedInXibAndNestableInOtherXibsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignedInXibAndNestableInOtherXibsView.swift; sourceTree = "<group>"; };
 		003622B81DE26A0C00848A17 /* NestingXibsFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NestingXibsFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		003622BB1DE26A0C00848A17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		003622C01DE26A0C00848A17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		003622C21DE26A0C00848A17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		003622C51DE26A0C00848A17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		003622C71DE26A0C00848A17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		003622CF1DE26BDB00848A17 /* DesignableXibView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableXibView.swift; sourceTree = "<group>"; };
-		003622D11DE26BE900848A17 /* DesignableXibView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DesignableXibView.xib; sourceTree = "<group>"; };
-		00EED64D1DE281890049F107 /* AnotherDesignableXibView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnotherDesignableXibView.xib; sourceTree = "<group>"; };
+		003622CF1DE26BDB00848A17 /* DesignedInXibView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignedInXibView.swift; sourceTree = "<group>"; };
+		003622D11DE26BE900848A17 /* DesignedInXibView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DesignedInXibView.xib; sourceTree = "<group>"; };
+		00EED64D1DE281890049F107 /* AnotherDesignedInXibView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AnotherDesignedInXibView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +45,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0012AF611DF4BB6E007169F1 /* DesignedInXibView */ = {
+			isa = PBXGroup;
+			children = (
+				003622D11DE26BE900848A17 /* DesignedInXibView.xib */,
+				003622CF1DE26BDB00848A17 /* DesignedInXibView.swift */,
+			);
+			name = DesignedInXibView;
+			sourceTree = "<group>";
+		};
+		0012AF641DF4BB9D007169F1 /* AnotherDesignedInXibView */ = {
+			isa = PBXGroup;
+			children = (
+				00EED64D1DE281890049F107 /* AnotherDesignedInXibView.xib */,
+				0012AF621DF4BB8C007169F1 /* AnotherDesignedInXibView.swift */,
+			);
+			name = AnotherDesignedInXibView;
+			sourceTree = "<group>";
+		};
+		0012AF651DF4BBB4007169F1 /* DesignedInXibAndNestableInOtherXibsView */ = {
+			isa = PBXGroup;
+			children = (
+				0012AF5F1DF3151F007169F1 /* DesignedInXibAndNestableInOtherXibsViewProtocol.swift */,
+				0012AF671DF4C35A007169F1 /* DesignedInXibAndNestableInOtherXibsView.swift */,
+			);
+			name = DesignedInXibAndNestableInOtherXibsView;
+			sourceTree = "<group>";
+		};
 		003622AF1DE26A0C00848A17 = {
 			isa = PBXGroup;
 			children = (
@@ -59,9 +92,9 @@
 			isa = PBXGroup;
 			children = (
 				003622BF1DE26A0C00848A17 /* Main.storyboard */,
-				003622D11DE26BE900848A17 /* DesignableXibView.xib */,
-				003622CF1DE26BDB00848A17 /* DesignableXibView.swift */,
-				00EED64D1DE281890049F107 /* AnotherDesignableXibView.xib */,
+				0012AF611DF4BB6E007169F1 /* DesignedInXibView */,
+				0012AF641DF4BB9D007169F1 /* AnotherDesignedInXibView */,
+				0012AF651DF4BBB4007169F1 /* DesignedInXibAndNestableInOtherXibsView */,
 				00EED64C1DE27DF70049F107 /* Non-related files */,
 			);
 			path = NestingXibsFun;
@@ -140,8 +173,8 @@
 			files = (
 				003622C61DE26A0C00848A17 /* LaunchScreen.storyboard in Resources */,
 				003622C31DE26A0C00848A17 /* Assets.xcassets in Resources */,
-				003622D21DE26BE900848A17 /* DesignableXibView.xib in Resources */,
-				00EED64E1DE281890049F107 /* AnotherDesignableXibView.xib in Resources */,
+				003622D21DE26BE900848A17 /* DesignedInXibView.xib in Resources */,
+				00EED64E1DE281890049F107 /* AnotherDesignedInXibView.xib in Resources */,
 				003622C11DE26A0C00848A17 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,8 +186,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				003622D01DE26BDB00848A17 /* DesignableXibView.swift in Sources */,
+				003622D01DE26BDB00848A17 /* DesignedInXibView.swift in Sources */,
 				003622BC1DE26A0C00848A17 /* AppDelegate.swift in Sources */,
+				0012AF631DF4BB8C007169F1 /* AnotherDesignedInXibView.swift in Sources */,
+				0012AF601DF3151F007169F1 /* DesignedInXibAndNestableInOtherXibsViewProtocol.swift in Sources */,
+				0012AF681DF4C35A007169F1 /* DesignedInXibAndNestableInOtherXibsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
