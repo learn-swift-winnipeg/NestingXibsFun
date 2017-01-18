@@ -26,10 +26,13 @@ extension DesignedInXibAndNestableInOtherXibsViewProtocol where Self: UIView {
         
         // Add layout constraints so the viewFromXib always fills the actual view.
         viewFromXib.translatesAutoresizingMaskIntoConstraints = false
-        viewFromXib.leadingAnchor.constraint(equalTo: self.leadingAnchor).isActive = true
-        viewFromXib.trailingAnchor.constraint(equalTo: self.trailingAnchor).isActive = true
-        viewFromXib.topAnchor.constraint(equalTo: self.topAnchor).isActive = true
-        viewFromXib.bottomAnchor.constraint(equalTo: self.bottomAnchor).isActive = true
+        
+        NSLayoutConstraint.activate([
+            viewFromXib.leadingAnchor.constraint(equalTo: self.leadingAnchor),
+            viewFromXib.trailingAnchor.constraint(equalTo: self.trailingAnchor),
+            viewFromXib.topAnchor.constraint(equalTo: self.topAnchor),
+            viewFromXib.bottomAnchor.constraint(equalTo: self.bottomAnchor)
+        ])
     }
     
     private func instantiateViewFromXib() -> UIView {

@@ -1,7 +1,12 @@
 import UIKit
 
 @IBDesignable
-class DesignedInXibView: DesignedInXibAndNestableInOtherXibsView {
+class DesignedInXibView: UIView,
+    DesignedInXibAndNestableInOtherXibsViewProtocol
+{
+    // MARK: - DesignedInXibAndNestableInOtherXibsViewProtocol
+    
+    var viewFromXib: UIView!
     
     // MARK: - Outlets
     
@@ -24,6 +29,8 @@ class DesignedInXibView: DesignedInXibAndNestableInOtherXibsView {
     // MARK: - Setup
     
     private func setupView() {
+        setupViewFromXib()
+        
         titleLabel.textColor = .purple
     }
 }
